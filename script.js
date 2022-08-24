@@ -26,5 +26,6 @@ function newQuote(){
     quoteText.textContent=quote.text 
 }
 
+newQuoteBtn.addEventListener('click',getQuotes)
 //on load
 getQuotes()
